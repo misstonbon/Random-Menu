@@ -24,7 +24,7 @@ menu_builder[2] = []
 
 puts "Welcome to Chez Tanya, I'm about to show you the daily menu!\n We get creative up in here."
 puts "Scared? Wanna create your own menu? (Y or N)\n>"
-choice = gets.chomp.upcase!
+choice = gets.chomp.upcase
 until choice == "Y" || choice == "N"
   puts "Please enter y or n. Caps don't matter.\n>"
   choice = gets.chomp.upcase
